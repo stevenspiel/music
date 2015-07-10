@@ -1,0 +1,214 @@
+/*
+LAYOUT: Landing Page
+DESCRIPTION: Home Page Grid
+*/
+
+#wrapper {
+	width: 100%;
+	position: relative;
+	text-align: left;
+	min-height:100%;
+}
+	#maincontentcontainer {
+		width: 100%;
+		height: auto;
+	}
+			#maincontent{
+				clear: both;
+				width: 60%; /* 1000px / 1250px */
+				font-size: 0.8125em; /* 13 / 16 */
+				max-width: 92.3em; /* 1200px / 13 */
+				margin: 0 auto;
+				color: #333;
+				position: relative;
+        padding: 1em 0px;
+			}
+
+.section {
+	margin-bottom: 7em;
+}
+
+.size {
+	height:125px;
+}
+
+.home-icons {
+	text-align: center;
+	width: 23%;
+	margin: 0 5%;
+	display: inline-block;
+	position: relative;
+	opacity: 0;
+}
+
+.home-icons a {
+	color:#211F1F;
+	transition :color .4s;
+	-webkit-transition :color .4s;
+	-moz-transition :color .4s;
+	-o-transition: color .4s;
+}
+
+.home-icons a:hover {
+	color:#DD4C23 !important;
+	transition :color .4s;
+	-webkit-transition :color .4s;
+	-moz-transition :color .4s;
+	-o-transition: color .4s;
+}
+
+.scoring {
+	transform:translate(-300px, -300px);
+	-ms-transform:translate(-300px, -300px); /* IE 9 */
+	-webkit-transform:translate(-300px, -300px);
+}
+
+.sequencing {
+	transform:translateY(-300px);
+	-ms-transform:translateY(-300px); /* IE 9 */
+	-webkit-transform:translateY(-300px);
+}
+
+.compositions {
+	transform:translate(300px, -300px);
+	-ms-transform:translate(300px, -300px); /* IE 9 */
+	-webkit-transform:translate(300px, -300px);
+}
+
+.arrangements {
+	transform:translate(-300px, 300px);
+	-ms-transform:translate(-300px, 300px); /* IE 9 */
+	-webkit-transform:translate(-300px, 300px);
+}
+
+.transcriptions {
+	transform:translateY(300px);
+	-ms-transform:translateY(300px); /* IE 9 */
+	-webkit-transform:translateY(300px);
+}
+
+.score-prep {
+	transform:translate(300px, 300px);
+	-ms-transform:translate(300px, 300px); /* IE 9 */
+	-webkit-transform:translate(300px, 300px);
+}
+
+div.in-place {
+	opacity: 1;
+	transform:translate(0,0);
+	-ms-transform:translate(0,0); /* IE 9 */
+	-webkit-transform:translate(0,0);
+	transition: 1s;
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+}
+
+
+/* 
+-------------------------------------------------------------- */
+
+
+
+
+/* html5reset.css - 01/11/2011 */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+    background: none repeat scroll 0 0 #FFFDFA;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+	display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000; 
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration:  line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;   
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+
+
+
